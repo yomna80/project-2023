@@ -1,0 +1,43 @@
+h1, h2 {
+	text-align: center;
+}
+
+body {
+	background-image: url("bg.jpg");
+}
+
+div {
+	display: inline-block;
+	padding: 20px;
+	margin-bottom: 5px;
+	border: 2px dotted black;
+	width: 20%;
+	text-align: center;
+	border-radius: 10px;
+	background-color: #f2f2f2;
+}
+
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit], .button {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover, .button:hover {
+  background-color: #45a049;
+}

@@ -1,0 +1,96 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="style.css">
+<title> Youmna Travel | Home </title>
+</head>
+<body>
+<h1> Youmna Travel </h1>
+<h2> For travels and transport </h2>
+<h3> Avaliable trips </h3>
+<div>
+<h5> TANTA > MANSOURA </h5>
+<h5> 8 AM : 5/5/2023 </h5>
+<h5> Level 3 Bus </h5>
+<button type="submit" class="button" onClick="myFun()"> Reserve Now </button>
+</div>
+<div>
+<h5> ALEXANDRIA > CAIRO </h5>
+<h5> 11 AM : 1/6/2023 </h5>
+<h5> Level 2 Bus </h5>
+<button type="submit" class="button" onClick="myFun()"> Reserve Now </button>
+</div>
+<div>
+<h5> ALEXANDRIA > CAIRO </h5>
+<h5> 11 AM : 1/6/2023 </h5>
+<h5> Level 2 Bus </h5>
+<button type="submit" class="button" onClick="myFun()"> Reserve Now </button>
+</div>
+<div>
+<h5> ALEXANDRIA > CAIRO </h5>
+<h5> 11 AM : 1/6/2023 </h5>
+<h5> Level 2 Bus </h5>
+<button type="submit" class="button" onClick="myFun()"> Reserve Now </button>
+</div>
+<div>
+<h5> ALEXANDRIA > CAIRO </h5>
+<h5> 11 AM : 1/6/2023 </h5>
+<h5> Level 2 Bus </h5>
+<button type="submit" class="button" onClick="myFun()"> Reserve Now </button>
+</div>
+<div>
+<h5> ALEXANDRIA > CAIRO </h5>
+<h5> 11 AM : 1/6/2023 </h5>
+<h5> Level 2 Bus </h5>
+<button type="submit" class="button" onClick="myFun()"> Reserve Now </button>
+</div>
+<div>
+<h5> ALEXANDRIA > CAIRO </h5>
+<h5> 11 AM : 1/6/2023 </h5>
+<h5> Level 2 Bus </h5>
+<button type="submit" class="button" onClick="myFun()"> Reserve Now </button>
+</div>
+<div>
+<h5> ALEXANDRIA > CAIRO </h5>
+<h5> 11 AM : 1/6/2023 </h5>
+<h5> Level 2 Bus </h5>
+<button type="submit" class="button" onClick="myFun()"> Reserve Now </button>
+</div>
+<center><h3 id="confirm"></h3></center>
+<hr>
+<h3> Request your trip </h3>
+<div>
+  <form>
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+	
+	<label for="number">Phone Number</label>
+    <input type="text" id="number" name="number" placeholder="Your phone number..">
+	
+	<label for="city">City</label>
+    <input type="text" id="city" name="city" placeholder="Your city you stay..">
+
+    <label for="dir">Direction</label>
+    <input type="text" id="dir" name="dir" placeholder="Your direction you want to go..">
+	
+	<label for="level">Level</label>
+    <input type="text" id="level" name="level" placeholder="The Level you want to travel in..">
+  
+    <input type="submit" value="Submit">
+  </form>
+</div>
+</body>
+<script>
+function myFun() {
+  var txt;
+  if (confirm("Are you Sure?")) {
+    txt = "Request has been done!";
+  } else {
+    txt = "Request Cancelled!";
+  }
+  document.getElementById("confirm").innerHTML = txt;
+}
+</script>
+</html>
